@@ -1,6 +1,6 @@
 FROM maven
 WORKDIR /opt/server
-COPY src .
+COPY src/* .
 COPY pom.xml .
 RUN mvn clean package
 RUN mv /opt/server/target/shipping-1.0.jar /opt/server/shipping.jar
