@@ -1,7 +1,7 @@
 networks:
-   default:
-     driver: bridge
-     name: roboshop
+  default:
+   driver: bridge
+   name: roboshop
      #external: true if it is created manually 
 services:
   mongodb:
